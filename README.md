@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project uses Pandas, OpenWeather, Citipy, gmaps, and gmaps in order to collect and visualize weather data. After randomly selecting a large number of cities, they are filtered by weather characteristics, and a nearby hotel is found. Additionally, a selection of four cities is used to plot a possible trip route.
+This project uses Pandas, OpenWeather, CitiPy, and gmaps in order to collect and visualize weather data. After randomly selecting a large number of cities, they are filtered by weather characteristics, and a nearby hotel is found. Additionally, a selection of four cities is used to plot a possible trip route.
 It is composed of three different parts:
-* [Weather Databse](#Weather-Database)
+* [Weather Database](#Weather-Database)
 * [Vacation Seach](#Vacation-Search)
 * [Vacation Itinerary](#Vacation-Itinerary)
 
@@ -22,6 +22,6 @@ The [Vacation Search](Vacation_Search) uses our previously gathered weather data
 
 ## Vacation Itinerary
 
-![Map with a route that visits four cities plotted](Vacation_Itinerary/WeatherPy_trave_map.png)
+![Map with a route that visits four cities plotted](Vacation_Itinerary/WeatherPy_travel_map.png)
 
 The [Vacation Itinerary](Vacation_Itinerary) takes a selection of four cities matching the criteria in the vacation search, and, using gmaps, plots a route that visits all four, starting and ending at the first city. It also plots the four cities on a map with markers and info boxes, similar to the vacation search.
